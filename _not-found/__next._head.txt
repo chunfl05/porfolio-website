@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[15518,["/porfolio-website/_next/static/chunks/af972ae134d4244a.js","/porfolio-website/_next/static/chunks/d7966f448e3c8a1c.js"],"ViewportBoundary"]
+4:I[15518,["/porfolio-website/_next/static/chunks/af972ae134d4244a.js","/porfolio-website/_next/static/chunks/d7966f448e3c8a1c.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[48351,["/porfolio-website/_next/static/chunks/af972ae134d4244a.js","/porfolio-website/_next/static/chunks/d7966f448e3c8a1c.js"],"IconMark"]
+0:{"buildId":"x1YIzbza8nzLSAwL-3Fwi","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:[["$","title","0",{"children":"Data Analyst Portfolio"}],["$","meta","1",{"name":"description","content":"Data Analyst turning complex datasets into actionable product insights. Seeking Data Analyst, Data Scientist, or Product Analytics roles."}],["$","meta","2",{"name":"generator","content":"v0.app"}],["$","link","3",{"rel":"icon","href":"/icon-light-32x32.png","media":"(prefers-color-scheme: light)"}],["$","link","4",{"rel":"icon","href":"/icon-dark-32x32.png","media":"(prefers-color-scheme: dark)"}],["$","link","5",{"rel":"icon","href":"/icon.svg","type":"image/svg+xml"}],["$","link","6",{"rel":"apple-touch-icon","href":"/apple-icon.png"}],["$","$L7","7",{}]]
