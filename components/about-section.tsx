@@ -13,9 +13,9 @@ export function AboutSection() {
 
       <div className="space-y-4 text-muted-foreground">
         <p>
-          I became interested in data analysis because I like solving puzzles that matter. 
-          Numbers tell stories, but only if you know how to ask the right questions and 
-          present the answers clearly.
+          I became interested in data analysis because I like solving puzzles
+          that matter. Numbers tell stories, but only if you know how to ask the
+          right questions and present the answers clearly.
         </p>
 
         <p>
@@ -35,33 +35,36 @@ export function AboutSection() {
           , where I&apos;ve been on the Dean&apos;s List and developed skills in{" "}
           <span className="font-medium text-highlight">Python</span>,{" "}
           <span className="font-medium text-highlight">R</span>,{" "}
-          <span className="font-medium text-highlight">SQL</span>, and statistical methods. 
-          My coursework and projects have taught me to work with large datasets, 
-          run hypothesis tests, build visualizations, and collaborate with designers and engineers.
+          <span className="font-medium text-highlight">SQL</span>,{" "}
+          <span className="font-medium text-highlight">JavaScript</span>, and
+          statistical methods. My coursework and projects have taught me to work
+          with large datasets, run hypothesis tests, build visualizations, and
+          collaborate with designers and engineers.
         </p>
 
         <p>
           One project I&apos;m proud of is{" "}
-          <span className="font-medium text-highlight">Dubloo</span>, a restroom 
-          accessibility platform. I built the sorting and filtering interactions and 
-          worked through UI disagreements with teammates to deliver a responsive, 
-          user-friendly experience. Another is my healthcare disparities analysis, 
-          where I engineered features like Insurance Type, ran t-tests and ANOVA, 
-          and turned statistical findings into clear visual stories.
+          <span className="font-medium text-highlight">Dubloo</span>, a restroom
+          accessibility platform. I built the sorting and filtering interactions
+          and worked through UI disagreements with teammates to deliver a
+          responsive, user-friendly experience. Another is my healthcare
+          disparities analysis, where I engineered features like Insurance Type,
+          ran t-tests and ANOVA, and turned statistical findings into clear
+          visual stories.
         </p>
 
         <p>
-          At{" "}
-          <span className="font-medium text-highlight">China Telecom</span>, I 
-          contributed to a drone dashboard—integrating route tracking and improving 
-          how operators interact with live data. I also wrote multiple proposals for 
-          AI modules in an education cloud product, which taught me how to communicate 
-          technical ideas to business stakeholders.
+          At <span className="font-medium text-highlight">China Telecom</span>,
+          I contributed to a drone dashboard—integrating route tracking and
+          improving how operators interact with live data. I also wrote multiple
+          proposals for AI modules in an education cloud product, which taught
+          me how to communicate technical ideas to business stakeholders.
         </p>
 
         <p>
-          I work best when I can move between independent analysis and team collaboration. 
-          I ask questions, document my process, and prefer direct feedback over assumptions.
+          I work best when I can move between independent analysis and team
+          collaboration. I ask questions, document my process, and prefer direct
+          feedback over assumptions.
         </p>
 
         <p>

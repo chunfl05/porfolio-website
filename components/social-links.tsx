@@ -7,7 +7,7 @@ const socialLinks = [
     label: "GitHub",
   },
   {
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/chunfei-liu-ab59412b8/",
     icon: Linkedin,
     label: "LinkedIn",
   },

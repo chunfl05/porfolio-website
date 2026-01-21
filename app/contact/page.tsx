@@ -12,7 +12,7 @@ const contactMethods = [
   {
     label: "LinkedIn",
     value: "Connect on LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/chunfei-liu-ab59412b8/",
     icon: Linkedin,
   },
   {
@@ -41,9 +41,10 @@ export default function ContactPage() {
                   <span className="font-medium text-highlight">
                     Data Analyst, Data Scientist, or Product Analytics
                   </span>{" "}
-                  opportunities—both internships and full-time roles. If you&apos;re 
-                  hiring or know someone who is, I&apos;d love to connect and learn 
-                  more about the team and the problems you&apos;re solving.
+                  opportunities—both internships and full-time roles. If
+                  you&apos;re hiring or know someone who is, I&apos;d love to
+                  connect and learn more about the team and the problems
+                  you&apos;re solving.
                 </p>
               </div>
 
@@ -52,8 +53,14 @@ export default function ContactPage() {
                   <a
                     key={method.label}
                     href={method.href}
-                    target={method.href.startsWith("mailto") ? undefined : "_blank"}
-                    rel={method.href.startsWith("mailto") ? undefined : "noopener noreferrer"}
+                    target={
+                      method.href.startsWith("mailto") ? undefined : "_blank"
+                    }
+                    rel={
+                      method.href.startsWith("mailto")
+                        ? undefined
+                        : "noopener noreferrer"
+                    }
                     className="group flex items-center gap-4 rounded-lg border border-border p-4 transition-colors hover:border-primary/30 hover:bg-secondary/30"
                   >
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
@@ -77,8 +84,8 @@ export default function ContactPage() {
                   Open to Coffee Chats
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Open to coffee chats, informational interviews, or referrals. 
-                  I&apos;m happy to share more about my projects or hear about 
+                  Open to coffee chats, informational interviews, or referrals.
+                  I&apos;m happy to share more about my projects or hear about
                   what your team is working on.
                 </p>
               </div>
@@ -86,7 +93,9 @@ export default function ContactPage() {
               <div className="mt-8 text-sm text-muted-foreground">
                 <p>
                   Currently based in{" "}
-                  <span className="font-medium text-highlight">Seattle, WA</span>{" "}
+                  <span className="font-medium text-highlight">
+                    Seattle, WA
+                  </span>{" "}
                   while studying at the University of Washington.
                 </p>
               </div>
