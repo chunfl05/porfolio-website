@@ -50,8 +50,15 @@ export default function ChinaTelecomPage() {
                   </li>
                   <li>
                     <span className="font-medium text-highlight">Drone dashboard:</span>{" "}
-                    Operators needed real-time visibility into drone routes and status, but 
+                    Operators needed real-time visibility into drone routes and status, but
                     existing display and interaction were limited.
+                  </li>
+                  <li>
+                    <span className="font-medium text-highlight">
+                      Shenzhen International Exchange Center app:
+                    </span>{" "}
+                    Needed system-wide deployment planning across 10+ business
+                    modules and external systems before development could start.
                   </li>
                 </ol>
               </section>
@@ -63,6 +70,10 @@ export default function ChinaTelecomPage() {
                 <ul className="list-disc list-inside space-y-1">
                   <li>Proposal writer for AI modules (education cloud product)</li>
                   <li>Contributor to drone dashboard (UI/data visualization integration, route tracking support)</li>
+                  <li>
+                    System planner for the Shenzhen International Exchange
+                    Center app (deployment requirement documentation)
+                  </li>
                 </ul>
               </section>
 
@@ -121,15 +132,23 @@ export default function ChinaTelecomPage() {
                 <div className="space-y-3">
                   <p>
                     <span className="font-medium text-highlight">Proposals:</span>{" "}
-                    Technical depth vs. accessibility—proposals needed enough detail for 
-                    engineers but clarity for business stakeholders. I structured documents 
+                    Technical depth vs. accessibility—proposals needed enough detail for
+                    engineers but clarity for business stakeholders. I structured documents
                     with executive summaries and technical appendices.
                   </p>
                   <p>
                     <span className="font-medium text-highlight">Dashboard:</span>{" "}
-                    Information density vs. clarity—operators need many data points but 
-                    can&apos;t process cluttered displays. We prioritized critical metrics 
+                    Information density vs. clarity—operators need many data points but
+                    can&apos;t process cluttered displays. We prioritized critical metrics
                     with drill-down for details.
+                  </p>
+                  <p>
+                    <span className="font-medium text-highlight">System planning:</span>{" "}
+                    Breadth vs. depth—the Exchange Center app touched 10+
+                    business modules (operations, security, hotel, finance,
+                    archive management) and external systems like WeCom and
+                    BI, so requirements documentation had to be thorough
+                    enough for integration teams without stalling delivery.
                   </p>
                 </div>
               </section>

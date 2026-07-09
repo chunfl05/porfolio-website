@@ -1,6 +1,7 @@
 import { Sidebar } from "@/components/sidebar";
 import { MobileNav } from "@/components/navigation";
 import { AboutSection } from "@/components/about-section";
+import { EducationSection } from "@/components/education-section";
 import { ExperienceSection } from "@/components/experience-section";
 import { ProjectsSection } from "@/components/projects-section";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Sidebar />
         <main className="pt-24 lg:w-1/2 lg:py-24">
           <AboutSection />
+          <EducationSection />
           <ExperienceSection />
           <ProjectsSection />
         </main>

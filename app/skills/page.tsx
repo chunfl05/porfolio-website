@@ -3,44 +3,44 @@ import { MobileNav } from "@/components/navigation";
 
 const skillCategories = [
   {
-    title: "Data Analysis & Statistical Testing",
+    title: "Data Analysis & Market Research",
     description:
-      "Clean, transform, and analyze datasets to answer business questions using appropriate statistical methods.",
+      "Clean, transform, and analyze datasets to answer business and marketing questions.",
     proof:
-      "In my Healthcare Disparities project, I used pandas for data wrangling, engineered features like Insurance Type, and applied t-tests and ANOVA to identify statistically significant differences in access and outcomes.",
-    skills: ["Python", "pandas", "t-test", "ANOVA", "EDA", "Feature Engineering"],
+      "At TestSprite, I run weekly SEO/GEO monitoring on keyword rankings and competitor data, and built two structured CSV datasets of 30–50 WA job postings for the Washington State Library study, revealing pay and hiring-speed differences by certification type.",
+    skills: ["Python", "R", "SQL", "Excel", "Market Research"],
   },
   {
     title: "Data Visualization & Dashboards",
     description:
       "Create clear visualizations and dashboards that help stakeholders understand patterns and make decisions.",
     proof:
-      "At China Telecom, I contributed to a drone dashboard integrating real-time route tracking and data visualization, improving how operators monitor and interact with flight data.",
-    skills: ["Data Visualization", "Dashboard Design", "Real-time Data"],
+      "I built Tableau dashboards tracking marketing KPIs (reach, engagement, conversion) at TestSprite and certification demand at the Washington State Library, plus SQL-backed engagement dashboards for EduHear and a monitoring dashboard for China Telecom's drone delivery system.",
+    skills: ["Tableau", "Power BI", "SQL", "Dashboard Design"],
   },
   {
-    title: "Product & UX Collaboration",
+    title: "Product & UX Design",
     description:
-      "Work with designers and engineers to build data-informed features that improve user experience.",
+      "Work with users and stakeholders to design and validate data-informed product experiences.",
     proof:
-      "On the Dubloo project, I built sorting/filtering interactions in JavaScript, collaborated on responsive mobile layouts, and resolved UI disagreements through direct discussion with teammates.",
-    skills: ["JavaScript", "CSS", "Responsive Design", "UI Collaboration"],
+      "I redesigned the Washington State Library website's UI/UX in Figma based on surveys and usability testing with 100+ adult learners, and led end-to-end database and product design for EduHear, an audio-first learning platform.",
+    skills: ["Figma", "Usability Testing", "Product Strategy"],
   },
   {
     title: "Technical Communication & Proposals",
     description:
       "Translate technical concepts into clear documentation and proposals for non-technical audiences.",
     proof:
-      "At China Telecom, I wrote multiple AI module proposals for an education cloud product, communicating technical requirements and business value to stakeholders.",
+      "At China Telecom, I authored 3 technical proposals for an AI module in an education cloud product, and drafted deployment requirement documents for the Shenzhen International Exchange Center app spanning 10+ business modules.",
     skills: ["Proposal Writing", "Technical Documentation", "Stakeholder Communication"],
   },
 ];
 
 const toolsList = {
-  Languages: ["Python", "R", "SQL", "JavaScript", "CSS"],
-  Analysis: ["pandas", "Statistical Testing", "EDA", "Feature Engineering"],
-  Visualization: ["Data Visualization Libraries", "Dashboard Design"],
-  Other: ["Responsive Web Design", "Proposal Writing", "UI Collaboration"],
+  "Programming Languages": ["Python", "R (proficient)", "JavaScript", "SQL"],
+  "Analysis & Visualization": ["Tableau", "Power BI", "Excel"],
+  Design: ["Figma"],
+  "Spoken Languages": ["Mandarin", "English"],
 };
 
 export default function SkillsPage() {

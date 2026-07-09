@@ -62,7 +62,41 @@ function ExperienceItem({
 export function ExperienceSection() {
   const experiences: ExperienceItemProps[] = [
     {
-      dateRange: "2024",
+      dateRange: "Jun 2026 — Present",
+      title: "Marketing Analyst, Full-time",
+      company: "TestSprite",
+      description:
+        "Source and partner with 100+ AI and developer creators on social media, leading full-cycle outreach and negotiation to expand brand reach within the technical community. Build and maintain Tableau dashboards to visualize marketing KPIs (reach, engagement, conversion rates) and conduct weekly SEO/GEO monitoring on keyword rankings and competitor data, enabling data-driven evaluation of ROI and refinement of creator selection criteria.",
+      skills: [
+        "Tableau",
+        "SEO/GEO Monitoring",
+        "Creator Partnerships",
+        "Marketing KPIs",
+      ],
+    },
+    {
+      dateRange: "Jan 2026 — Jun 2026",
+      title: "Marketing Analysis Intern",
+      company: "TestSprite",
+      description:
+        "Managed end-to-end documentation and winner selection for TestSprite Hackathon S2, and led email database cleanup to improve data quality and outreach efficiency, supporting GTM execution for the autonomous testing product.",
+      skills: ["Documentation", "GTM", "Data Quality", "Email Outreach"],
+    },
+    {
+      dateRange: "Jul 2025 — Sep 2025",
+      title: "Intern, Software Development Department",
+      company: "China Telecom",
+      description:
+        "Authored 3 technical proposals for an AI module within the \"Education Cloud Resource Service\" project, strengthening client confidence by outlining feasible solutions and delivery safeguards. Optimized UI integration and validated monitoring functionality for an urban drone medicine delivery dashboard, improving real-time route tracking accuracy and system reliability. Drove system planning for the Shenzhen International Exchange Center app, drafting deployment requirement documents covering architecture, hardware/software environments, and integrations across 10+ business modules and external systems (WeCom, BI).",
+      skills: [
+        "Technical Proposals",
+        "UI Integration",
+        "System Planning",
+        "Requirements Documentation",
+      ],
+    },
+    {
+      dateRange: "Jun 2024 — Aug 2024",
       title: "Marketing Analysis Intern",
       company: "Guangzhou Rastar Entertainment Co., Ltd.",
       description:
@@ -73,34 +107,6 @@ export function ExperienceSection() {
         "User Segmentation",
         "Market Research",
         "Dashboard Creation",
-      ],
-    },
-    {
-      dateRange: "2025",
-      title: "Product Analytics Intern",
-      company: "China Telecom",
-      description:
-        "Wrote AI module proposals for an education cloud product, communicating technical requirements and business value to stakeholders. Contributed to a drone dashboard with route tracking and improved data visualization for operators.",
-      skills: [
-        "Proposal Writing",
-        "Data Visualization",
-        "Dashboard Design",
-        "UI/UX",
-      ],
-    },
-    {
-      dateRange: "2023 — Present",
-      title: "Informatics Student",
-      company: "University of Washington",
-      companyUrl: "https://www.washington.edu",
-      description:
-        "Pursuing Data Science Track with Dean's List recognition. Building experience in Python, R, SQL, and statistical analysis through coursework and hands-on projects analyzing healthcare disparities and building accessibility platforms.",
-      skills: [
-        "Python",
-        "R",
-        "SQL",
-        "Statistical Analysis",
-        "Data Visualization",
       ],
     },
   ];

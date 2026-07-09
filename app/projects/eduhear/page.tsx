@@ -3,7 +3,7 @@ import { MobileNav } from "@/components/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-export default function WashingtonStateLibraryPage() {
+export default function EduHearPage() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
@@ -20,10 +20,10 @@ export default function WashingtonStateLibraryPage() {
           <article>
             <header className="mb-8">
               <h1 className="text-3xl font-bold text-highlight mb-2">
-                Washington State Library — Marketing to Adult Learners
+                EduHear — Audio-First Learning Platform
               </h1>
               <p className="text-muted-foreground">
-                Course project · Jan 2026 – Jun 2026
+                Course project · Oct 2025 – Dec 2025
               </p>
             </header>
 
@@ -33,10 +33,10 @@ export default function WashingtonStateLibraryPage() {
                   TL;DR
                 </h2>
                 <p>
-                  Studied how the Washington State Library can better market
-                  workforce certifications to adult learners—analyzing job
-                  postings and certification data, then redesigning the
-                  library&apos;s website UX based on direct learner feedback.
+                  Led database schema design and end-to-end product development
+                  for EduHear, an audio-first learning platform serving
+                  students, instructors, and institutions—from wireframing to
+                  relational data modeling to stakeholder-facing analysis.
                 </p>
               </section>
 
@@ -45,10 +45,11 @@ export default function WashingtonStateLibraryPage() {
                   Problem
                 </h2>
                 <p>
-                  Adult learners often don&apos;t know which certifications
-                  actually pay off, and libraries lack a clear, data-backed
-                  picture of which credentials are worth promoting across IT,
-                  Healthcare, and Admin sectors.
+                  Audio-learning products need to serve three very different
+                  audiences at once—students tracking their own progress,
+                  instructors monitoring engagement across a course, and
+                  institutions evaluating platform-wide performance—without a
+                  data model or dashboards designed to support all three views.
                 </p>
               </section>
 
@@ -57,20 +58,14 @@ export default function WashingtonStateLibraryPage() {
                   My Role
                 </h2>
                 <ul className="list-disc list-inside space-y-1">
+                  <li>Led database schema design and relational data modeling</li>
                   <li>
-                    Analyzed 30–50 WA job postings and built two structured CSV
-                    datasets tracking certifications, wages, and regional
-                    demand
+                    Owned end-to-end product development from wireframing
+                    through delivery
                   </li>
                   <li>
-                    Built Tableau dashboards to visualize certification
-                    frequency, family-wage eligibility, and geographic demand
-                    across East/West Washington
-                  </li>
-                  <li>
-                    Redesigned the Washington State Library website&apos;s
-                    UI/UX in Figma based on surveys and usability testing with
-                    100+ adult learners
+                    Synthesized platform metrics into a data-driven business
+                    case for stakeholders
                   </li>
                 </ul>
               </section>
@@ -82,49 +77,43 @@ export default function WashingtonStateLibraryPage() {
                 <ol className="list-decimal list-inside space-y-2">
                   <li>
                     <span className="font-medium text-highlight">
-                      Gathered job posting data:
+                      Modeled the data:
                     </span>{" "}
-                    Collected 30–50 WA job postings across IT, Healthcare, and
-                    Admin sectors and structured them into two CSV datasets.
+                    Designed a relational schema to represent creators,
+                    lessons, instructors, and students across the platform.
                   </li>
                   <li>
                     <span className="font-medium text-highlight">
-                      Analyzed certification value:
+                      Wrote reusable queries:
                     </span>{" "}
-                    Compared &quot;Required&quot; vs. &quot;Preferred&quot;
-                    certifications (e.g., CompTIA Security+, CMA) and found
-                    Required credentials drove faster hiring and up to 20%
-                    higher pay.
+                    Built SQL queries with multi-table JOINs, aggregations,
+                    and CASE logic, and packaged them into reusable views such
+                    as{" "}
+                    <code className="rounded bg-secondary/50 px-1 py-0.5 text-xs">
+                      instructor_lesson_engagement
+                    </code>{" "}
+                    and{" "}
+                    <code className="rounded bg-secondary/50 px-1 py-0.5 text-xs">
+                      student_lesson_progress
+                    </code>
+                    .
                   </li>
                   <li>
                     <span className="font-medium text-highlight">
-                      Visualized regional demand:
+                      Powered role-specific dashboards:
                     </span>{" "}
-                    Built Tableau dashboards on certification frequency,
-                    family-wage eligibility, and geographic demand to inform
-                    which credentials libraries should offer or discontinue.
+                    Used those views to track engagement, completion rates,
+                    lesson depth, and listening progress for each audience.
                   </li>
                   <li>
                     <span className="font-medium text-highlight">
-                      Redesigned the website:
+                      Built the business case:
                     </span>{" "}
-                    Ran surveys and usability testing with 100+ adult learners,
-                    then iterated on navigation, content depth, visual
-                    hierarchy, and accessibility in Figma.
+                    Analyzed metrics across creator productivity, content
+                    catalog breadth, lesson depth, and premium subscription
+                    revenue, then synthesized findings for stakeholders.
                   </li>
                 </ol>
-              </section>
-
-              <section>
-                <h2 className="text-lg font-semibold text-highlight mb-3">
-                  Key Findings
-                </h2>
-                <p>
-                  &quot;Required&quot; certifications drive faster hiring and
-                  up to 20% higher pay than &quot;Preferred&quot; credentials—a
-                  clear signal for libraries deciding which certifications to
-                  prioritize in outreach and programming.
-                </p>
               </section>
 
               <section>
@@ -132,17 +121,14 @@ export default function WashingtonStateLibraryPage() {
                   Deliverables
                 </h2>
                 <ul className="list-disc list-inside space-y-2">
+                  <li>Relational database schema for the platform</li>
                   <li>
-                    Two structured CSV datasets on certifications, wages, and
-                    regional demand
+                    Reusable SQL views powering role-specific engagement
+                    dashboards
                   </li>
                   <li>
-                    Tableau dashboards visualizing certification frequency,
-                    family-wage eligibility, and geographic demand
-                  </li>
-                  <li>
-                    Redesigned website UI/UX in Figma to boost engagement and
-                    demand for library services
+                    Data-driven business case covering productivity, catalog
+                    depth, and subscription revenue
                   </li>
                 </ul>
               </section>
@@ -153,12 +139,11 @@ export default function WashingtonStateLibraryPage() {
                 </h2>
                 <ul className="list-disc list-inside space-y-1">
                   <li>
-                    Expand the job posting sample beyond 30–50 postings for
-                    stronger statistical confidence
+                    Add cohort-based retention views to track engagement over
+                    time, not just point-in-time snapshots
                   </li>
                   <li>
-                    Pilot the redesigned site with library staff and iterate
-                    based on real usage data
+                    Extend the schema to support A/B testing of lesson formats
                   </li>
                 </ul>
               </section>
@@ -168,7 +153,7 @@ export default function WashingtonStateLibraryPage() {
                   Tools Used
                 </h2>
                 <div className="flex flex-wrap gap-2">
-                  {["Tableau", "Figma", "Market Research", "UX Research"].map(
+                  {["SQL", "Database Design", "Dashboards", "Product Strategy"].map(
                     (tool) => (
                       <span
                         key={tool}
