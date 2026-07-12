@@ -76,7 +76,7 @@ export function ExperienceSection() {
     },
     {
       dateRange: "Jan 2026 — Jun 2026",
-      title: "Marketing Analysis Intern",
+      title: "Marketing Analyst, Intern",
       company: "TestSprite",
       description:
         "Managed end-to-end documentation and winner selection for TestSprite Hackathon S2, and led email database cleanup to improve data quality and outreach efficiency, supporting GTM execution for the autonomous testing product.",
